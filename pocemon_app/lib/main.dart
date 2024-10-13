@@ -10,6 +10,11 @@ class PokemonApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const WelcomeScreen();
+    return MaterialApp(
+      theme: ThemeData(
+        fontFamily: 'ClashDisplay',
+      ),
+      home: const WelcomeScreen(),
+    );
   }
 }
